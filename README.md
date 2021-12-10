@@ -5,7 +5,7 @@ Temperature regulating clothing, or TERCO, is an energy harvesting smart clothin
 
 ## Background
 
-### Power
+### Energy Harvesting
 Conventional indoor heating and cooling systems, ranging from electric heater to air conditioner, have one major issue from our perspective: it consumes way too much power. Even smaller portable sized air conditioner and heater takes significant amount of energy. With that, we did not want to contribute for more energy consumption through this and thought about whether making a self-sustainable cooling and heating system. 
 
 Initially, we looked at generating power from body temperature, and there were some articles and reports showing that generating power from human body temperaure is possible. Nevertheless, the power generated from it was roughly around 20 to 25 milliwatt, which is nowhere close to what the system needed, so we had to quickly end this idea and seek for something else.
@@ -21,9 +21,14 @@ For cooling, the best option was using a small fan as it is the most basic, but 
 TERCO is mainly consist of three major functional blocks: power, control, and heater/cooler. The attached diagram is a block diagram for TERCO. 
 <img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/block_diagram.png">
 
+### Power
 The power part includes the solar panel, battery, and the power regulator/harvester. The system itself is very simple; the solar panel provides power to the regulator/harvester board up to 6 watt, and once the regulator/harvester receives enough power, it will start charging the li-po battery that is connected to the board. For this, Adafruit's BQ24074 was utilized to maximize the power regulating and harvesting. <br />
 <img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/power.png" width=45% height=50%> <img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/harvester.png" width=45% height=50%>
 
+### Control
 The control part is responsible for overall system. We decided to use STM32F405 Express board from Adafruit, since it is low-power based system at which it still provides all the functionalities including I2C and SPI communcation protocol, 3.3 volt logic control, sufficient input/output pins, and etc. The control board receives data from the temperature sensor, makes decision to generate either heat ot cooling, and shows the information on an attached display. The decision is made based upon user's input; user can set a desired temperature, and once the difference between the measured temperature and the desired temperature is more than a designated offset, which is 3 degree celsius in our system, the peltier/fan starts operating. <br />
 <img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/feather.png" width=45% height=50%> <img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/feather_size.png" width=45% height=50%>
+
+### Heater/Cooler
+
 
