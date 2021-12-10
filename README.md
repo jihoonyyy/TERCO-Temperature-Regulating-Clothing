@@ -65,5 +65,12 @@ Go ahead Eugene!
 
 ## Pictures and Videos
 
+Please post the video and some pictures, and briefly explain the overall implementation.
+
+<br /> <br />
 
 ## Lessons Learned
+The implementation of the overall system was not so complicated, but coming up with an energy harvesting system was very difficult. Especially, we learned that power supplied from energy harvesters are often very fickle, leaving the system with an unrealiable power source. We have compensated the system with a decently sized li-po battery, but managing power with a such system is not an easy task. 
+
+Generating appropriate heating was also very tricky; fans were straightforward to implement, but we had to figure out how to use peltiers effectively to tranfer heat to other people. We devised two ways: for a larger peltier, we can use heat sinks to radiate heat to human body, and for a smaller peltier, it can be placed right behind people's neck (not directly touching) to warm the body temperature up.
+
