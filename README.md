@@ -15,6 +15,7 @@ In the end, solar power turned out to be the most suitable option for the system
 ### Heating and Cooling
 For cooling, the best option was using a small fan as it is the most basic, but it works almost the best. However, for heating, we had to think about a couple different options that we had. In the end, we decided to go with a peltier heater, which utilizes the Peltier effect to create heat, since it only required a simple DC voltage and current to generate the amount of heat that we wanted. You can get more information on peltiers from this [website](https://ii-vi.com/how_do_thermoelectric_coolers_tec_work/).
 
+
 ## System Overview
 
 <img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/block_diagram.png">
