@@ -67,6 +67,8 @@ Go ahead Eugene!
 
 Please post the video and some pictures, and briefly explain the overall implementation.
 
+
+
 <br /> <br />
 
 ## Lessons Learned
@@ -74,3 +76,4 @@ The implementation of the overall system was not so complicated, but coming up w
 
 Generating appropriate heating was also very tricky; fans were straightforward to implement, but we had to figure out how to use peltiers effectively to tranfer heat to other people. We devised two ways: for a larger peltier, we can use heat sinks to radiate heat to human body, and for a smaller peltier, it can be placed right behind people's neck (not directly touching) to warm the body temperature up.
 
+We also learned that setting up Arduino IDE with mac is tedious with ports nots showing up in Arduino and not being able to see serial communication. We ended up switching back to a Windows machine to DFU our code, which made things simpler. There were also issues starting up the code on the Feather Board, as there were a series of steps that needed to be taken that was not well documented by ADAFruit.. This included needing to pull pin BO high and pressing reset to enable the bootloader, DFU the code onto the board, and then putting pin B0 low and pressing reset again. Figuring this out took a long time and also slowed down our development of our project.
