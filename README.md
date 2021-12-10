@@ -14,7 +14,7 @@ In the end, solar power turned out to be the most suitable option for the system
 
 ## System Overview
 
-img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/block_diagram.png"
+<img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/block_diagram.png">
 
 
 
