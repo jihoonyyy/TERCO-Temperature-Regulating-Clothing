@@ -47,7 +47,8 @@ This hardware implementation is almost the exact realization of the block diagra
 Display and the temperature sensor are connected to the feather board through I2C communication. Since they do not require high data bandwidth or fast data transfer, I2C was chosen to save space on the board. SPI could have worked better if we really wanted to save some more energy, but the express board only has a single channel for SPI, so the implementation becomes much simpler if we use I2C as the main communication protocol.
 
 ### Software
-Go ahead Eugene!
+Although setting up Arduino IDE to work with the Feather Board was a bit tedious, writing and implementing the code in Arduino was fairly straight forward. Arduino IDE is nice in that it has many 
+<img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/arduino code.png">
 
 
 <br /> <br />
