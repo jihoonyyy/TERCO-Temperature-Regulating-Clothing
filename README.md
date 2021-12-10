@@ -36,6 +36,17 @@ As mentioned, we implemented a heating/cooling system using peltiers and mini fa
 
 <br /> <br />
 
+### List of Items
+1. [Adafruit Feather STM32F405 Express](https://www.adafruit.com/product/4382#description)
+2. [Power regulator/harvester: Adafruit BQ24074](https://www.adafruit.com/product/4755#technical-details)
+3. [Solar panel](https://www.adafruit.com/product/500)
+4. [Li-po battery: 3.7V 4400mAh](https://www.adafruit.com/product/354)
+5. [Mini fan](https://www.digikey.com/en/products/detail/sunon-fans/UF3H3-710/4916523)
+6. [Peltier](https://www.digikey.com/en/products/detail/cui-devices/CP60133/1747364)
+7. [Temperature sensor](https://www.adafruit.com/product/4566)
+
+<br /> <br />
+
 ## Implementation
 
 ### Hardware
@@ -44,4 +55,8 @@ The picture of overall hardware implementation is attached below <br />
 This hardware implementation is almost the exact realization of the block diagram that we provided. Due to the issue with chip/board supply shortages, we were not able to create a dedicated PCB for it, but for prototyping purposes, we used a breat board to implement the overall system. One difference from the block diagram is that there are two buttons used in this system, and this is for setting up a desired temperature for the user. Designated temperature gets displayed on the display alongside with the current temperature.
 
 Display and the temperature sensor are connected to the feather board through I2C communication. Since they do not require high data bandwidth or fast data transfer, I2C was chosen to save space on the board. SPI could have worked better if we really wanted to save some more energy, but the express board only has a single channel for SPI, so the implementation becomes much simpler if we use I2C as the main communication protocol.
+
+### Software
+Go ahead Eugene!
+
 
