@@ -22,7 +22,7 @@ TERCO is mainly consist of three major functional blocks: power, control, and he
 <img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/block_diagram.png">
 
 The power part includes the solar panel, battery, and the power regulator/harvester. The system itself is very simple; the solar panel provides power to the regulator/harvester board up to 6 watt, and once the regulator/harvester receives enough power, it will start charging the li-po battery that is connected to the board. For this, Adafruit's BQ24074 was utilized to maximize the power regulating and harvesting.
-<img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/power.png" width=60% height=50%> <img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/harvester.png" width=60% height=50%>
+<img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/power.png" width=45% height=50%> <img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/harvester.png" width=45% height=50%>
 
 
 
