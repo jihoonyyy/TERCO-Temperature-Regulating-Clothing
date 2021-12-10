@@ -36,16 +36,6 @@ As mentioned, we implemented a heating/cooling system using peltiers and mini fa
 
 <br /> <br />
 
-### List of Items
-1. [Adafruit Feather STM32F405 Express](https://www.adafruit.com/product/4382#description)
-2. [Power regulator/harvester: Adafruit BQ24074](https://www.adafruit.com/product/4755#technical-details)
-3. [Solar panel](https://www.adafruit.com/product/500)
-4. [Li-po battery: 3.7V 4400mAh](https://www.adafruit.com/product/354)
-5. [Mini fan](https://www.digikey.com/en/products/detail/sunon-fans/UF3H3-710/4916523)
-6. [Peltier](https://www.digikey.com/en/products/detail/cui-devices/CP60133/1747364)
-7. [Temperature sensor](https://www.adafruit.com/product/4566)
-
-<br /> <br />
 
 ## Implementation
 
@@ -60,3 +50,20 @@ Display and the temperature sensor are connected to the feather board through I2
 Go ahead Eugene!
 
 
+<br /> <br />
+
+## List of Items
+1. [Adafruit Feather STM32F405 Express](https://www.adafruit.com/product/4382#description)
+2. [Power regulator/harvester: Adafruit BQ24074](https://www.adafruit.com/product/4755#technical-details)
+3. [Solar panel](https://www.adafruit.com/product/500)
+4. [Li-po battery: 3.7V 4400mAh](https://www.adafruit.com/product/354)
+5. [Mini fan](https://www.digikey.com/en/products/detail/sunon-fans/UF3H3-710/4916523)
+6. [Peltier](https://www.digikey.com/en/products/detail/cui-devices/CP60133/1747364)
+7. [Temperature sensor](https://www.adafruit.com/product/4566)
+
+<br /> <br />
+
+## Pictures and Videos
+
+
+## Lessons Learned
