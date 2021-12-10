@@ -71,9 +71,9 @@ I have also my setting for programming the board below.
 
 ## Pictures and Videos
 
-<img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/front.png">
+<img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/front.PNG">
 
-<img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/back.png"><br />
+<img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/back.PNG"><br />
 
 <br /> <br />
 
