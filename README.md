@@ -41,3 +41,7 @@ As mentioned, we implemented a heating/cooling system using peltiers and mini fa
 ### Hardware
 The picture of overall hardware implementation is attached below <br />
 <img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/parts.png">
+This hardware implementation is almost the exact realization of the block diagram that we provided. Due to the issue with chip/board supply shortages, we were not able to create a dedicated PCB for it, but for prototyping purposes, we used a breat board to implement the overall system. One difference from the block diagram is that there are two buttons used in this system, and this is for setting up a desired temperature for the user. Designated temperature gets displayed on the display alongside with the current temperature.
+
+Display and the temperature sensor are connected to the feather board through I2C communication. Since they do not require high data bandwidth or fast data transfer, I2C was chosen to save space on the board. SPI could have worked better if we really wanted to save some more energy, but the express board only has a single channel for SPI, so the implementation becomes much simpler if we use I2C as the main communication protocol.
+
