@@ -38,4 +38,4 @@ As mentioned, we implemented a heating/cooling system using peltiers and mini fa
 
 ### Hardware
 The picture of overall hardware implementation is attached below <br />
-<img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/parts.png" width=45% height=50%>
+<img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/parts.png">
