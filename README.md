@@ -12,4 +12,9 @@ Initially, we looked at generating power from body temperature, and there were s
 In the end, solar power turned out to be the most suitable option for the system, as it has a lot of ready-made circuitries for prototyping, and it also generated eonugh power for our system to operate on nearly self-sustainable base. Furthermore, it was the easiest work with as solar panels are widely used in industries and researches.
 
 
+## System Overview
+
+img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/block_diagram.png"
+
+
 
