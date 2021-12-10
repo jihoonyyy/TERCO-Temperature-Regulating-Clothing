@@ -31,6 +31,6 @@ The control part is responsible for overall system. We decided to use Adafruit F
 
 ### Heater/Cooler
 As mentioned, we implemented a heating/cooling system using peltiers and mini fans. Implementation of them are very straight forward, as positive and negative ends are designated with colors, so it would just require right wire connection from the source. To control the amount of control fed into both devices to turn them on and off, we utilized an NMOS as a switch. Referring to the block diagram, the NMOS's drain is connected to the power system, as it provides more current and voltage than an internal regulator from the feather board, and the gate pin is connected to GPIO of the feather board. With an appropriate choice for the NMOS, meaning low drain current and low steady power consumption, we can create a power efficient switch system without using a physical switch. Pictures of the peltier and the fan is attached below. <br />
-<img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/peltier.png" width=45% height=30%><img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/fan.png" width=45% height=30%>
+<img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/peltier.png" width=35% height=30%><img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/fan.png" width=35% height=30%>
 
 
