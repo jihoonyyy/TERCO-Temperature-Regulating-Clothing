@@ -50,7 +50,7 @@ Display and the temperature sensor are connected to the feather board through I2
 Although setting up Arduino IDE to work with the Feather Board was a bit tedious, writing and implementing the code in Arduino was fairly straight forward. Arduino IDE is nice in that it has many available libraries and example code that make deployment fairly easy and quick. Some of the libraries that I used in this project were the for the temperature sensor (Adafruit_AHTX0) and LCD display (Adafruit_SSD1306). I also used the Wire library to take care of the I2C communication between the board and both the temperature sensor and the lcd display. 
 
 As seen below, I implemented a very simple feedback control loop system to keep the temperature read by the sensor close to the temperature set by the user.<br />
-<img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/arduino code.png">
+<img src="https://github.com/jihoonyyy/TERCO-Temperature-Regulating-Clothing/blob/main/arduino code.png"><br />
 This system has three stages, which are cooling (turn fans on, peltiers off), heating (turn peltiers on, fans off), and idle (both peltiers and fans are off). Once the user gets within 2 degrees of the set temperature, the peripherials will turn off to prevent the system from going over the set temperature limit. 
 
 I have also my setting for programming the board below.
